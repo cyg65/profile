@@ -1,7 +1,7 @@
 {
   "main.css": "/profile/static/css/main.80abe8bf.chunk.css",
-  "main.js": "/profile/static/js/main.9d492a06.chunk.js",
-  "main.js.map": "/profile/static/js/main.9d492a06.chunk.js.map",
+  "main.js": "/profile/static/js/main.5aa80631.chunk.js",
+  "main.js.map": "/profile/static/js/main.5aa80631.chunk.js.map",
   "static/css/1.0e8be819.chunk.css": "/profile/static/css/1.0e8be819.chunk.css",
   "static/js/1.c0eeb2b6.chunk.js": "/profile/static/js/1.c0eeb2b6.chunk.js",
   "static/js/1.c0eeb2b6.chunk.js.map": "/profile/static/js/1.c0eeb2b6.chunk.js.map",
@@ -14,9 +14,9 @@
   "static/media/Cdj_Production_logo.png": "/profile/static/media/Cdj_Production_logo.e8f517ff.png",
   "static/media/ProxyJapan.gif": "/profile/static/media/ProxyJapan.369f84f0.gif",
   "static/media/Konayuki.png": "/profile/static/media/Konayuki.33c9f388.png",
-  "static/css/main.80abe8bf.chunk.css.map": "/profile/static/css/main.80abe8bf.chunk.css.map",
   "static/css/1.0e8be819.chunk.css.map": "/profile/static/css/1.0e8be819.chunk.css.map",
+  "static/css/main.80abe8bf.chunk.css.map": "/profile/static/css/main.80abe8bf.chunk.css.map",
   "index.html": "/profile/index.html",
-  "precache-manifest.f32b77ce930f2732ea038d17ed708ee8.js": "/profile/precache-manifest.f32b77ce930f2732ea038d17ed708ee8.js",
+  "precache-manifest.19a4e70d854b4bf709a3257ec508c885.js": "/profile/precache-manifest.19a4e70d854b4bf709a3257ec508c885.js",
   "service-worker.js": "/profile/service-worker.js"
 }
