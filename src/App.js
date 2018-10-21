@@ -27,13 +27,13 @@ class App extends Component {
               className="card mb-5"
             >
               <img
-                class="card-img-top"
+                className="card-img-top"
                 src={require('./assets/Kisetsu.png')}
                 alt="Kumano Fude: Shiki"
               />
-              <div class="card-body">
-                <h5 class="card-title">[WIP]Kumano Fude: Shiki</h5>
-                <p class="card-text">
+              <div className="card-body">
+                <h5 className="card-title">[WIP]Kumano Fude: Shiki</h5>
+                <div className="card-text">
                   <ul>
                     <li>Prototype: 3D (Cinema4d)</li>
                     <li>Video: Cinema4D + After Effects</li>
@@ -42,7 +42,7 @@ class App extends Component {
                   </ul>
                   In collebortaion with © 2003-2018 Neowing. All Rights
                   Reserved.
-                </p>
+                </div>
               </div>
             </a>
             <a
@@ -52,13 +52,13 @@ class App extends Component {
               className="card mb-5"
             >
               <img
-                class="card-img-top"
+                className="card-img-top"
                 src={require('./assets/Konayuki.png')}
                 alt="Kumano Fude: Konayuki"
               />
-              <div class="card-body">
-                <h5 class="card-title">Kumano Fude: Konayuki</h5>
-                <p class="card-text">
+              <div className="card-body">
+                <h5 className="card-title">Kumano Fude: Konayuki</h5>
+                <div className="card-text">
                   <ul>
                     <li>Video: After Effects + Premiere Pro</li>
                     <li>Landing Page: HTMLCSS + W3-Templete + JS</li>
@@ -66,24 +66,24 @@ class App extends Component {
                   </ul>
                   In collebortaion with (Designer) Shawn Han, © 2003-2018
                   Neowing. All Rights Reserved.
-                </p>
+                </div>
               </div>
             </a>
             <a className="card mb-5">
               <img
-                class="card-img-top"
+                className="card-img-top"
                 src={require('./assets/lollilip_thumb.jpg')}
                 alt="T-shirts: Lollilip"
               />
-              <div class="card-body">
-                <h5 class="card-title">[WIP]T-shirts: Lollilip</h5>
-                <p class="card-text">
+              <div className="card-body">
+                <h5 className="card-title">[WIP]T-shirts: Lollilip</h5>
+                <div className="card-text">
                   <ul>
                     <li>Design: Photoshop + Illustrator</li>
                   </ul>
                   In collebortaion with (Illustrator) Shen Lee, © 2003-2018
                   Lollilip China Ltd. All Rights Reserved.
-                </p>
+                </div>
               </div>
             </a>
 
@@ -94,20 +94,20 @@ class App extends Component {
               rel="noopener noreferrer"
             >
               <img
-                class="card-img-top"
+                className="card-img-top"
                 src={require('./assets/Yoshiki.png')}
                 alt="Kumano Fude: Yoshiki"
               />
-              <div class="card-body">
-                <h5 class="card-title">Kumano Fude: Yoshiki</h5>
-                <p class="card-text">
+              <div className="card-body">
+                <h5 className="card-title">Kumano Fude: Yoshiki</h5>
+                <div className="card-text">
                   <ul>
                     <li>Photography Direction</li>
                     <li>Landing Page: HTMLCSS + W3-Templete + JS</li>
                     <li>Design: Photoshop + Illustrator</li>
                   </ul>
                   In collebortaion with © 2010 Koyudo All Rights Reserved.
-                </p>
+                </div>
               </div>
             </a>
             <a
@@ -117,36 +117,36 @@ class App extends Component {
               rel="noopener noreferrer"
             >
               <img
-                class="card-img-top"
+                className="card-img-top"
                 src={require('./assets/ChaDJ.png')}
                 alt="ChaDJ"
               />
-              <div class="card-body">
-                <h5 class="card-title">[WIP]Branding: ChaDJ</h5>
-                <p class="card-text">
+              <div className="card-body">
+                <h5 className="card-title">[WIP]Branding: ChaDJ</h5>
+                <div className="card-text">
                   <ul>
                     <li>Landing Page: HTMLCSS + Bootstrap + JS</li>
                     <li>Logo Design: Illustrator</li>
                   </ul>
                   In collebortaion with: © 2010 Neowing. All Rights Reserved.
-                </p>
+                </div>
               </div>
             </a>
             <div className="card mb-5">
               <img
-                class="card-img-top"
+                className="card-img-top"
                 src={require('./assets/Cdj_Production_logo.png')}
                 alt="cdj productions"
               />
-              <div class="card-body">
-                <h5 class="card-title">Branding: CDJ Productions </h5>
-                <p class="card-text">
+              <div className="card-body">
+                <h5 className="card-title">Branding: CDJ Productions </h5>
+                <div className="card-text">
                   <ul>
                     <li>Logo Design: Illustrator</li>
                     <li>Video: After Effects</li>
                   </ul>
                   In collebortaion with: © 2010 Neowing. All Rights Reserved.
-                </p>
+                </div>
               </div>
             </div>
             <div className="card mb-5">
@@ -156,34 +156,34 @@ class App extends Component {
                 width="220"
                 height="480"
                 frameBorder="0"
-                class="card-img-top"
+                className="card-img-top"
                 allowFullScreen
               />
-              <div class="card-body">
-                <h5 class="card-title">JS Sidebar Widget</h5>
-                <p class="card-text">
+              <div className="card-body">
+                <h5 className="card-title">JS Sidebar Widget</h5>
+                <div className="card-text">
                   <ul>
                     <li>Perl+JS</li>
                   </ul>
                   In collebortaion with: © 2010 Neowing. All Rights Reserved.
-                </p>
+                </div>
               </div>
             </div>
             <div className="card mb-5">
               <img
                 src={require('./assets/ProxyJapan.gif')}
                 width="220"
-                class="card-img-top"
+                className="card-img-top"
                 alt="react native demo"
               />
-              <div class="card-body">
-                <h5 class="card-title">[WIP]Proxy Japan Mobile APP</h5>
-                <p class="card-text">
+              <div className="card-body">
+                <h5 className="card-title">[WIP]Proxy Japan Mobile APP</h5>
+                <div className="card-text">
                   <ul>
                     <li>React Native</li>
                   </ul>
                   In collebortaion with: © 2010 Neowing. All Rights Reserved.
-                </p>
+                </div>
               </div>
             </div>
           </div>
