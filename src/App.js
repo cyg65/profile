@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 // import { BrowserRouter, Route, Switch } from 'react-router-dom';
-
+import { IoMdArrowDropright } from 'react-icons/io';
 import './App.css';
 
 class App extends Component {
@@ -16,8 +16,12 @@ class App extends Component {
             I am a product/UX/web designer based in Tokyo. I am passionate for
             all things technology, creative.
           </p>
-          <ul>
-            <li>Contact</li>
+          <hr className="my-4" />
+          <ul className="list-group font-weight-bold">
+            <li className="list-group-item border-0 d-flex row align-items-center p-0 mx-0">
+              <IoMdArrowDropright className="arrow" />
+              Contact
+            </li>
           </ul>
         </div>
 

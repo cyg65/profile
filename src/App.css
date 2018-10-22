@@ -44,6 +44,14 @@ button.close {
   background-color: black
 }
 
+.arrow {
+  transition: transform 0.3s;
+}
+
+.arrow:hover {
+  transform: rotate(90deg)
+}
+
 @media (min-width: 576px) {
   .card-columns {
     column-count: 2
@@ -60,7 +68,6 @@ a:hover {
   text-decoration: none;
   color: inherit;
 }
-
 
 @media (min-width: 1300px) {
   .card-columns {
