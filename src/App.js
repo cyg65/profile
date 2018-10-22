@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 // import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
 import './App.css';
 
 class App extends Component {
@@ -125,6 +125,7 @@ class App extends Component {
                 <h5 className="card-title">[WIP]Branding: ChaDJ</h5>
                 <div className="card-text">
                   <ul>
+                    <li>Layout design: Sketch</li>
                     <li>Landing Page: HTMLCSS + Bootstrap + JS</li>
                     <li>Logo Design: Illustrator</li>
                   </ul>
@@ -132,7 +133,11 @@ class App extends Component {
                 </div>
               </div>
             </a>
-            <div className="card mb-5">
+            <div
+              className="card mb-5"
+              data-toggle="modal"
+              data-target="#exampleModalCenter"
+            >
               <img
                 className="card-img-top"
                 src={require('./assets/Cdj_Production_logo.png')}
@@ -180,9 +185,46 @@ class App extends Component {
                 <h5 className="card-title">[WIP]Proxy Japan Mobile APP</h5>
                 <div className="card-text">
                   <ul>
+                    <li>Logo Design: Illustrator</li>
+                    <li>Layout Design: Illustrator</li>
                     <li>React Native</li>
                   </ul>
                   In collebortaion with: © 2010 Neowing. All Rights Reserved.
+                </div>
+              </div>
+            </div>
+
+            <div
+              className="modal fade"
+              id="exampleModalCenter"
+              tabIndex="-1"
+              role="dialog"
+              aria-labelledby="exampleModalCenterTitle"
+              aria-hidden="true"
+            >
+              <div
+                className="modal-dialog modal-dialog-centered"
+                role="document"
+              >
+                <div className="modal-content rounded-0">
+                  <button
+                    type="button"
+                    className="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span className="text-white" aria-hidden="true">
+                      &times;
+                    </span>
+                  </button>
+
+                  <div className="modal-body">
+                    <video
+                      controls
+                      src={require('./assets/cdj_productions_title.mp4')}
+                      width="100%"
+                    />
+                  </div>
                 </div>
               </div>
             </div>

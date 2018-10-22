@@ -8,23 +8,49 @@
 }
 
 .card-body {
-  z-index: 99999;
+  z-index: 999;
 }
 
 .card {
   transition: all .2s ease-in-out;
+  cursor: pointer;
 }
 
+.modal {
+  padding: 16px;
+  z-index: 9999;
+}
+
+/* .modal-header {
+  border-bottom: transparent
+} */
+
+button.close {
+  position: absolute;
+  padding: 20px;
+  right: 0;
+  z-index: 999999999;
+  line-height: 0.4
+}
 
 .card:hover {
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
   transform: scale(1.02);
-  z-index: 99999;
+  z-index: 9;
+}
+
+.modal-body {
+  padding: 0;
+  background-color: black
 }
 
 @media (min-width: 576px) {
   .card-columns {
     column-count: 2
+  }
+
+  .modal-dialog {
+    max-width: 1200px;
   }
 }
 
