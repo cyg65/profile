@@ -16,6 +16,9 @@ class App extends Component {
             I am a product/UX/web designer based in Tokyo. I am passionate for
             all things technology, creative.
           </p>
+          <ul>
+            <li>Contact</li>
+          </ul>
         </div>
 
         <div className="container col-sm-12 col-lg-8 m-0 d-flex row mt-5 right">
@@ -69,7 +72,7 @@ class App extends Component {
                 </div>
               </div>
             </a>
-            <a className="card mb-5">
+            <div className="card mb-5">
               <img
                 className="card-img-top"
                 src={require('./assets/lollilip_thumb.jpg')}
@@ -85,7 +88,7 @@ class App extends Component {
                   Lollilip China Ltd. All Rights Reserved.
                 </div>
               </div>
-            </a>
+            </div>
 
             <a
               href="http://www.cdjapan.co.jp/beauty/yoshiki.html"
@@ -136,7 +139,7 @@ class App extends Component {
             <div
               className="card mb-5"
               data-toggle="modal"
-              data-target="#exampleModalCenter"
+              data-target="#cdj_production_demo"
             >
               <img
                 className="card-img-top"
@@ -196,10 +199,10 @@ class App extends Component {
 
             <div
               className="modal fade"
-              id="exampleModalCenter"
+              id="cdj_production_demo"
               tabIndex="-1"
               role="dialog"
-              aria-labelledby="exampleModalCenterTitle"
+              aria-labelledby="cdjProductionDemo-video"
               aria-hidden="true"
             >
               <div
