@@ -48,8 +48,12 @@ button.close {
   transition: transform 0.3s;
 }
 
-.arrow:hover {
+.arrow-turn {
   transform: rotate(90deg)
+}
+
+.list-group-item.d-flex {
+  cursor: pointer
 }
 
 @media (min-width: 576px) {

@@ -1,9 +1,16 @@
 import React, { Component } from 'react';
+import $ from 'jquery';
 // import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { IoMdArrowDropright } from 'react-icons/io';
+import { findDOMNode } from 'react-dom';
 import './App.css';
 
 class App extends Component {
+  turnArrow = () => {
+    const el = findDOMNode(this.refs.turn);
+    $(el).toggleClass('arrow-turn');
+  };
+
   render() {
     return (
       <div className="container-fluid main d-flex row m-auto text-black-50">
@@ -18,10 +25,18 @@ class App extends Component {
           </p>
           <hr className="my-4" />
           <ul className="list-group font-weight-bold">
-            <li className="list-group-item border-0 d-flex row align-items-center p-0 mx-0">
-              <IoMdArrowDropright className="arrow" />
+            <li
+              className="list-group-item border-0 p-0 d-flex mx-0 align-items-center p"
+              onClick={this.turnArrow}
+            >
+              <div className="d-inline-block arrow" ref="turn">
+                <IoMdArrowDropright className="d-block" />
+              </div>
               Contact
             </li>
+            <ul>
+              <li />
+            </ul>
           </ul>
         </div>
 
