@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
 import $ from 'jquery';
 // import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import { IoMdArrowDropright } from 'react-icons/io';
+import {
+  IoMdArrowDropright,
+  IoMdMail,
+  IoMdPhonePortrait
+} from 'react-icons/io';
 import { findDOMNode } from 'react-dom';
 import './App.css';
 
@@ -24,19 +28,28 @@ class App extends Component {
             all things technology, creative.
           </p>
           <hr className="my-4" />
-          <ul className="list-group font-weight-bold">
-            <li
-              className="list-group-item border-0 p-0 d-flex mx-0 align-items-center p"
-              onClick={this.turnArrow}
-            >
-              <div className="d-inline-block arrow" ref="turn">
-                <IoMdArrowDropright className="d-block" />
-              </div>
-              Contact
+
+          <a
+            data-toggle="collapse"
+            href="#contact"
+            role="button"
+            aria-expanded="false"
+            aria-controls="contact"
+            className="p-0 d-flex mx-0 align-items-center font-weight-bold"
+            onClick={this.turnArrow}
+          >
+            <div className="d-inline-block arrow" ref="turn">
+              <IoMdArrowDropright className="d-block" />
+            </div>
+            Contact
+          </a>
+          <ul className="mb-3 collapse multi-collapse" id="contact">
+            <li className="list-unstyled">
+              <IoMdMail /> cyg65@foxmail.com
             </li>
-            <ul>
-              <li />
-            </ul>
+            <li className="list-unstyled">
+              <IoMdPhonePortrait /> +81 80-9970-5532
+            </li>
           </ul>
         </div>
 
@@ -62,8 +75,10 @@ class App extends Component {
                     <li>Landing Page: HTMLCSS+Jquery</li>
                     <li>Design: Cinema4d + Illustrator</li>
                   </ul>
-                  In collebortaion with © 2003-2018 Neowing. All Rights
-                  Reserved.
+                  <p>
+                    In collaboration with © 2003-2018 Neowing. All Rights
+                    Reserved.
+                  </p>
                 </div>
               </div>
             </a>
@@ -86,8 +101,10 @@ class App extends Component {
                     <li>Landing Page: HTMLCSS + W3-Templete + JS</li>
                     <li>Design: Photoshop + Illustrator</li>
                   </ul>
-                  In collebortaion with (Designer) Shawn Han, © 2003-2018
-                  Neowing. All Rights Reserved.
+                  <p>
+                    In collaboration with (Designer) Shawn Han, © 2003-2018
+                    Neowing. All Rights Reserved.
+                  </p>
                 </div>
               </div>
             </a>
@@ -103,8 +120,10 @@ class App extends Component {
                   <ul>
                     <li>Design: Photoshop + Illustrator</li>
                   </ul>
-                  In collebortaion with (Illustrator) Shen Lee, © 2003-2018
-                  Lollilip China Ltd. All Rights Reserved.
+                  <p>
+                    In collaboration with (Illustrator) Shen Lee, © 2003-2018
+                    Lollilip China Ltd. All Rights Reserved.
+                  </p>
                 </div>
               </div>
             </div>
@@ -128,7 +147,9 @@ class App extends Component {
                     <li>Landing Page: HTMLCSS + W3-Templete + JS</li>
                     <li>Design: Photoshop + Illustrator</li>
                   </ul>
-                  In collebortaion with © 2010 Koyudo All Rights Reserved.
+                  <p>
+                    In collaboration with © 2010 Koyudo All Rights Reserved.
+                  </p>
                 </div>
               </div>
             </a>
@@ -151,7 +172,9 @@ class App extends Component {
                     <li>Landing Page: HTMLCSS + Bootstrap + JS</li>
                     <li>Logo Design: Illustrator</li>
                   </ul>
-                  In collebortaion with: © 2010 Neowing. All Rights Reserved.
+                  <p>
+                    In collaboration with © 2010 Neowing. All Rights Reserved.
+                  </p>
                 </div>
               </div>
             </a>
@@ -172,19 +195,19 @@ class App extends Component {
                     <li>Logo Design: Illustrator</li>
                     <li>Video: After Effects</li>
                   </ul>
-                  In collebortaion with: © 2010 Neowing. All Rights Reserved.
+                  <p>
+                    In collaboration with © 2010 Neowing. All Rights Reserved.
+                  </p>
                 </div>
               </div>
             </div>
             <div className="card mb-5">
-              <iframe
+              <img
                 title="demogif"
-                src="https://giphy.com/embed/9P1p6zllxm4oc9fKG6"
+                src={require('./assets/js_demo.gif')}
                 width="220"
-                height="480"
-                frameBorder="0"
                 className="card-img-top"
-                allowFullScreen
+                alt="js_demo"
               />
               <div className="card-body">
                 <h5 className="card-title">JS Sidebar Widget</h5>
@@ -192,7 +215,9 @@ class App extends Component {
                   <ul>
                     <li>Perl+JS</li>
                   </ul>
-                  In collebortaion with: © 2010 Neowing. All Rights Reserved.
+                  <p>
+                    In collaboration with © 2010 Neowing. All Rights Reserved.
+                  </p>
                 </div>
               </div>
             </div>
@@ -211,7 +236,9 @@ class App extends Component {
                     <li>Layout Design: Illustrator</li>
                     <li>React Native</li>
                   </ul>
-                  In collebortaion with: © 2010 Neowing. All Rights Reserved.
+                  <p>
+                    In collaboration with © 2010 Neowing. All Rights Reserved.
+                  </p>
                 </div>
               </div>
             </div>

@@ -49,11 +49,21 @@ button.close {
 }
 
 .arrow-turn {
-  transform: rotate(90deg)
+  transform: rotate(90deg);
+  color: rgb(226, 83, 83);
 }
 
 .list-group-item.d-flex {
   cursor: pointer
+}
+
+.list-group>ul,
+.card-text>ul {
+  padding-left: 1.2em !important;
+}
+
+.card-text>p {
+  font-size: 12px;
 }
 
 @media (min-width: 576px) {

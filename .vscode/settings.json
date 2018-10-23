@@ -1,0 +1,40 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "window.zoomLevel": 0,
+    "bracketPairColorizer.consecutivePairColors": [
+        "()",
+        "[]",
+        "{}",
+        "<>",
+        ["Gold", "Orchid", "LightSkyBlue"],
+        "Red"
+    ],
+    "flow.enabled": true,
+    "editor.formatOnSave": true,
+    "[javascript]": {
+        "editor.formatOnSave": false
+    },
+    "eslint.autoFixOnSave": true,
+    "eslint.alwaysShowStatus": true,
+    "prettier.disableLanguages": ["js"],
+    "files.autoSave": "onFocusChange",
+    "workbench.colorTheme": "Visual Studio Dark",
+    "team.showWelcomeMessage": false,
+    "git.enableSmartCommit": true,
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "jshint.enable": false,
+    "javascript.suggestionActions.enabled": false,
+    "prettier.singleQuote": true,
+    "cSpell.allowCompoundWords": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+
+
+}
