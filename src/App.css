@@ -26,9 +26,10 @@
 } */
 
 button.close {
-  position: absolute;
+  position: fixed;
   padding: 20px;
   right: 0;
+  top: 0;
   z-index: 999999999;
   line-height: 0.4
 }
