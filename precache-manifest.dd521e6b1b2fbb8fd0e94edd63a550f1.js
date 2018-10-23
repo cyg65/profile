@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/profile/static/media/lollilip_thumb.0315ac29.jpg"
   },
   {
-    "revision": "d3e23993dc9f84a3c97b",
-    "url": "/profile/static/css/main.9f690d3d.chunk.css"
+    "revision": "cd71eead527c2551146b",
+    "url": "/profile/static/css/main.0910cbba.chunk.css"
   },
   {
     "revision": "269550771bd45e3517c1bd2c4f9bd266",
     "url": "/profile/static/media/cdj_productions_title.26955077.mp4"
   },
   {
-    "revision": "7996123a25bec493f7f0",
-    "url": "/profile/static/js/1.7996123a.chunk.js"
+    "revision": "9b1a3b9f1a958a93dbd8",
+    "url": "/profile/static/js/1.9b1a3b9f.chunk.js"
   },
   {
     "revision": "92700b96a6acba4945f6",
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/profile/static/media/Konayuki.33c9f388.png"
   },
   {
-    "revision": "d3e23993dc9f84a3c97b",
-    "url": "/profile/static/js/main.d3e23993.chunk.js"
+    "revision": "cd71eead527c2551146b",
+    "url": "/profile/static/js/main.cd71eead.chunk.js"
   },
   {
     "revision": "806dc4f3b39dcdff73dfe4aeb2bd34a2",
@@ -44,15 +44,19 @@ self.__precacheManifest = [
     "url": "/profile/static/media/Cdj_Production_logo.e8f517ff.png"
   },
   {
+    "revision": "86574ebee936119424faf53b693bce89",
+    "url": "/profile/static/media/js_demo.86574ebe.gif"
+  },
+  {
     "revision": "369f84f0657cf207dfd27feeeeb2a722",
     "url": "/profile/static/media/ProxyJapan.369f84f0.gif"
   },
   {
-    "revision": "7996123a25bec493f7f0",
+    "revision": "9b1a3b9f1a958a93dbd8",
     "url": "/profile/static/css/1.d35c072d.chunk.css"
   },
   {
-    "revision": "7312cfb06cfcdb286b924856346e0e74",
+    "revision": "511b06200693ca3c98b8692ee694730c",
     "url": "/profile/index.html"
   }
 ];
