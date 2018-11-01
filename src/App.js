@@ -173,7 +173,8 @@ class App extends Component {
                     <li>Logo Design: Illustrator</li>
                   </ul>
                   <p>
-                    In collaboration with © 2010 Neowing. All Rights Reserved.
+                    In collaboration with © 2003-2018 Neowing. All Rights
+                    Reserved.
                   </p>
                 </div>
               </div>
@@ -196,7 +197,8 @@ class App extends Component {
                     <li>Video: After Effects</li>
                   </ul>
                   <p>
-                    In collaboration with © 2010 Neowing. All Rights Reserved.
+                    In collaboration with © 2003-2018 Neowing. All Rights
+                    Reserved.
                   </p>
                 </div>
               </div>
@@ -216,7 +218,8 @@ class App extends Component {
                     <li>Perl+JS</li>
                   </ul>
                   <p>
-                    In collaboration with © 2010 Neowing. All Rights Reserved.
+                    In collaboration with © 2003-2018 Neowing. All Rights
+                    Reserved.
                   </p>
                 </div>
               </div>
@@ -237,7 +240,8 @@ class App extends Component {
                     <li>React Native</li>
                   </ul>
                   <p>
-                    In collaboration with © 2010 Neowing. All Rights Reserved.
+                    In collaboration with © 2003-2018 Neowing. All Rights
+                    Reserved.
                   </p>
                 </div>
               </div>

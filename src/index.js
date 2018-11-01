@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 /*eslint-disable no-unused-vars*/
-import $ from 'jquery';
+// import $ from 'jquery';
 import Popper from 'popper.js';
 /*eslint-enable no-unused-vars*/
 import 'bootstrap/dist/js/bootstrap.bundle.min';
