@@ -1,20 +1,9 @@
 import React, { Component } from 'react';
-import $ from 'jquery';
 // import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import {
-  IoMdArrowDropright,
-  IoMdMail,
-  IoMdPhonePortrait
-} from 'react-icons/io';
-import { findDOMNode } from 'react-dom';
+import { Contact } from './Summary';
 import './App.css';
 
 class App extends Component {
-  turnArrow = () => {
-    const el = findDOMNode(this.refs.turn);
-    $(el).toggleClass('arrow-turn');
-  };
-
   render() {
     return (
       <div className="container-fluid main d-flex row m-auto text-black-50">
@@ -28,29 +17,7 @@ class App extends Component {
             all things technology, creative.
           </p>
           <hr className="my-4" />
-
-          <a
-            data-toggle="collapse"
-            href="#contact"
-            role="button"
-            aria-expanded="false"
-            aria-controls="contact"
-            className="p-0 d-flex mx-0 align-items-center font-weight-bold"
-            onClick={this.turnArrow}
-          >
-            <div className="d-inline-block arrow" ref="turn">
-              <IoMdArrowDropright className="d-block" />
-            </div>
-            Contact
-          </a>
-          <ul className="mb-3 collapse multi-collapse" id="contact">
-            <li className="list-unstyled">
-              <IoMdMail /> cyg65@foxmail.com
-            </li>
-            <li className="list-unstyled">
-              <IoMdPhonePortrait /> +81 80-9970-5532
-            </li>
-          </ul>
+          <Contact />
         </div>
 
         <div className="container col-sm-12 col-lg-8 m-0 d-flex row mt-5 right">
