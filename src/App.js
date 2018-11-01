@@ -1,26 +1,25 @@
 import React, { Component } from 'react';
 // import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import { Contact } from './Summary';
+import { Contact, Skills } from './Summary';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="container-fluid main d-flex row m-auto text-black-50">
-        <div className="container col-sm-12 col-lg-4 m-0 mt-5">
-          <div className="display-4">
-            <b>SHION KOU</b>
-          </div>
-          <div>Experience Designer</div>
-          <p className="mt-3">
+        <div className="container col-sm-12 col-lg-4 m-0 p-5">
+          <h1 className="font-weight-bold">SHION KOU</h1>
+          <h5 className="mt-4 font-weight-light">EXPERIENCE DESIGNER</h5>
+          <p className="mt-5">
             I am a product/UX/web designer based in Tokyo. I am passionate for
             all things technology, creative.
           </p>
           <hr className="my-4" />
           <Contact />
+          <Skills />
         </div>
 
-        <div className="container col-sm-12 col-lg-8 m-0 d-flex row mt-5 right">
+        <div className="container col-sm-12 col-lg-8 m-0 d-flex row p-5 right">
           <div className="content card-columns">
             <a
               href="https://cyg65.github.io/kisetsu_2018/"
@@ -34,7 +33,9 @@ class App extends Component {
                 alt="Kumano Fude: Shiki"
               />
               <div className="card-body">
-                <h5 className="card-title">[WIP]Kumano Fude: Shiki</h5>
+                <h4 className="card-title font-weight-bold text-uppercase">
+                  [WIP]Kumano Fude: Shiki
+                </h4>
                 <div className="card-text">
                   <ul>
                     <li>Prototype: 3D (Cinema4d)</li>
@@ -61,7 +62,9 @@ class App extends Component {
                 alt="Kumano Fude: Konayuki"
               />
               <div className="card-body">
-                <h5 className="card-title">Kumano Fude: Konayuki</h5>
+                <h4 className="card-title font-weight-bold">
+                  Kumano Fude: Konayuki
+                </h4>
                 <div className="card-text">
                   <ul>
                     <li>Video: After Effects + Premiere Pro</li>
@@ -82,7 +85,9 @@ class App extends Component {
                 alt="T-shirts: Lollilip"
               />
               <div className="card-body">
-                <h5 className="card-title">[WIP]T-shirts: Lollilip</h5>
+                <h4 className="card-title font-weight-bold">
+                  [WIP]T-shirts: Lollilip
+                </h4>
                 <div className="card-text">
                   <ul>
                     <li>Design: Photoshop + Illustrator</li>
@@ -107,7 +112,9 @@ class App extends Component {
                 alt="Kumano Fude: Yoshiki"
               />
               <div className="card-body">
-                <h5 className="card-title">Kumano Fude: Yoshiki</h5>
+                <h4 className="card-title font-weight-bold">
+                  Kumano Fude: Yoshiki
+                </h4>
                 <div className="card-text">
                   <ul>
                     <li>Photography Direction</li>
@@ -132,7 +139,9 @@ class App extends Component {
                 alt="ChaDJ"
               />
               <div className="card-body">
-                <h5 className="card-title">[WIP]Branding: ChaDJ</h5>
+                <h4 className="card-title font-weight-bold">
+                  [WIP]Branding: ChaDJ
+                </h4>
                 <div className="card-text">
                   <ul>
                     <li>Layout design: Sketch</li>
@@ -157,7 +166,9 @@ class App extends Component {
                 alt="cdj productions"
               />
               <div className="card-body">
-                <h5 className="card-title">Branding: CDJ Productions </h5>
+                <h4 className="card-title font-weight-bold">
+                  Branding: CDJ Productions
+                </h4>
                 <div className="card-text">
                   <ul>
                     <li>Logo Design: Illustrator</li>
@@ -179,7 +190,9 @@ class App extends Component {
                 alt="js_demo"
               />
               <div className="card-body">
-                <h5 className="card-title">JS Sidebar Widget</h5>
+                <h4 className="card-title font-weight-bold">
+                  JS Sidebar Widget
+                </h4>
                 <div className="card-text">
                   <ul>
                     <li>Perl+JS</li>
@@ -199,7 +212,9 @@ class App extends Component {
                 alt="react native demo"
               />
               <div className="card-body">
-                <h5 className="card-title">[WIP]Proxy Japan Mobile APP</h5>
+                <h4 className="card-title font-weight-bold">
+                  [WIP]Proxy Japan Mobile APP
+                </h4>
                 <div className="card-text">
                   <ul>
                     <li>Logo Design: Illustrator</li>
