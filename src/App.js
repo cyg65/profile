@@ -6,20 +6,20 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div className="container-fluid main d-flex row m-auto text-black-50">
-        <div className="container col-sm-12 col-lg-4 m-0 p-5">
+      <div className="container-fluid main d-flex row ml-0 mr-auto text-black-50 p-0">
+        <div className="container col-sm-12 col-md-4 m-0 p-5">
           <h1 className="font-weight-bold">SHION KOU</h1>
           <h5 className="mt-4 font-weight-light">EXPERIENCE DESIGNER</h5>
           <p className="mt-5">
             I am a product/UX/web designer based in Tokyo. I am passionate for
-            all things technology, creative.
+            all things technology, creative
           </p>
-          <hr className="my-4" />
+          <hr className="my-5" />
           <Contact />
           <Skills />
         </div>
 
-        <div className="container col-sm-12 col-lg-8 m-0 d-flex row p-5 right">
+        <div className="container col-sm-12 col-md-8 m-0 d-flex row p-5 right">
           <div className="content card-columns">
             <a
               href="https://cyg65.github.io/kisetsu_2018/"
@@ -38,7 +38,7 @@ class App extends Component {
                 </h4>
                 <div className="card-text">
                   <ul>
-                    <li>Prototype: 3D (Cinema4d)</li>
+                    <li>3D Modeling: Cinema4d</li>
                     <li>Video: Cinema4D + After Effects</li>
                     <li>Landing Page: HTMLCSS+Jquery</li>
                     <li>Design: Cinema4d + Illustrator</li>

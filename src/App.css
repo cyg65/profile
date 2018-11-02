@@ -14,13 +14,26 @@ h5,
   letter-spacing: 0.25em
 }
 
+
 body {
   font-size: 1.5em;
   line-height: 1.6
 }
 
+.main {
+  max-width: 1300px;
+}
+
+.mt-5 {
+  margin-top: 4em !important
+}
+
 .letter-spacing {
   letter-spacing: 0.25em
+}
+
+.font-weight-bold {
+  font-weight: 900 !important;
 }
 
 .card,
@@ -75,8 +88,8 @@ button.close {
   color: rgb(226, 83, 83);
 }
 
-.list-group-item.d-flex {
-  cursor: pointer
+.list-group-item {
+  border: none
 }
 
 .list-group>ul,
@@ -87,11 +100,6 @@ button.close {
 .card-text>p {
   font-size: 12px;
 }
-
-.progress-bar {
-  transition: 1s;
-}
-
 
 @media (min-width: 576px) {
   .card-columns {
@@ -110,7 +118,7 @@ a:hover {
   color: inherit;
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1080px) {
   .card-columns {
     column-count: 3
   }
