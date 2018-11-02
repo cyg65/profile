@@ -10,9 +10,9 @@ class App extends Component {
         <div className="container col-sm-12 col-md-4 m-0 p-5">
           <h1 className="font-weight-bold">SHION KOU</h1>
           <h5 className="mt-4 font-weight-light">EXPERIENCE DESIGNER</h5>
-          <p className="mt-5 text-justify">
+          <p className="mt-5">
             I am a product/UX/web designer based in Tokyo. I am passionate for
-            all things technology & creative. My experiences takes me
+            all things technology & creative. My experience takes me
             all-around-the-world, fillfulling different roles in marketing,
             branding & design.
           </p>
@@ -39,7 +39,7 @@ class App extends Component {
                   [WIP]Shiki
                 </h5>
                 <h5 className="mt-4 font-weight-light">
-                  Product Design/branding
+                  Product Design/Branding
                 </h5>
                 <div className="card-text mt-3">
                   <ul>
