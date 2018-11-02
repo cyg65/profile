@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/profile/static/media/lollilip_thumb.0315ac29.jpg"
   },
   {
-    "revision": "35e60e52d8439efe0791",
+    "revision": "1693f36057f734f3557e",
     "url": "/profile/static/css/main.c7b7cd86.chunk.css"
   },
   {
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/profile/static/media/Konayuki.33c9f388.png"
   },
   {
-    "revision": "35e60e52d8439efe0791",
-    "url": "/profile/static/js/main.35e60e52.chunk.js"
+    "revision": "1693f36057f734f3557e",
+    "url": "/profile/static/js/main.1693f360.chunk.js"
   },
   {
     "revision": "806dc4f3b39dcdff73dfe4aeb2bd34a2",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/profile/static/css/1.6eb4c2e1.chunk.css"
   },
   {
-    "revision": "07abc3ec5c34e423c3fbca1ecedfaf0d",
+    "revision": "25af6a2cb39f9f364dda8ba9a3395bcd",
     "url": "/profile/index.html"
   }
 ];
