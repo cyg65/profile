@@ -105,6 +105,11 @@ button.close {
   font-size: .5em
 }
 
+P {
+  margin-block-start: 0;
+  margin-block-end: 0
+}
+
 @media (min-width: 576px) {
   .card-columns {
     column-count: 2

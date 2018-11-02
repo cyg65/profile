@@ -193,13 +193,13 @@ export const Skills = class Skills extends Component {
                   />
                   <p
                     style={{
-                      fontSize: '0.5em',
+                      fontSize: '9px',
                       fontWeight: 500,
-                      border: 'solid 1px',
-                      paddingTop: 2,
-                      paddingBottom: 2,
-                      paddingLeft: 1.25,
-                      paddingRight: 1.25,
+                      border: 'solid 0.85px',
+                      height: 15.5,
+                      width: 15,
+                      paddingTop: 2.5,
+                      paddingLeft: 1,
                       lineHeight: '1em'
                     }}
                     className="position-absolute d-block m-0"
