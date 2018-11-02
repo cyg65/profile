@@ -88,7 +88,22 @@ export const Skills = class Skills extends Component {
         <div className="mb-3 collapse show multi-collapse" id="skills">
           <ul className="list-group">
             <li className="list-group-item font-weight-light">
-              Graphics Design
+              Keywords
+              <div className="mt-3">
+                <span className="badge badge-secondary p-2">JavaScript</span>{' '}
+                <span className="badge badge-secondary p-2">HTML5</span>{' '}
+                <span className="badge badge-secondary p-2">CSS3</span>{' '}
+                <span className="badge badge-secondary p-2">ReactJS</span>{' '}
+                <span className="badge badge-secondary p-2">React Native</span>{' '}
+                <span className="badge badge-secondary p-2">Photoshop</span>{' '}
+                <span className="badge badge-secondary p-2">Illustrator</span>{' '}
+                <span className="badge badge-secondary p-2">After Effects</span>{' '}
+                <span className="badge badge-secondary p-2">Cinema 4D</span>{' '}
+                <span className="badge badge-secondary p-2">3d Modeling</span>{' '}
+              </div>
+            </li>
+            <li className="list-group-item font-weight-light">
+              Content Design
               <div className="d-flex mt-3">
                 <div
                   className="d-flex align-items-center justify-content-center p-1"
@@ -177,10 +192,19 @@ export const Skills = class Skills extends Component {
                     }}
                   />
                   <p
-                    style={{ fontSize: '0.7em' }}
-                    className="position-absolute"
+                    style={{
+                      fontSize: '0.6em',
+                      fontWeight: 500,
+                      border: 'solid 1px',
+                      paddingTop: 0,
+                      paddingBottom: 0,
+                      paddingLeft: 1.2,
+                      paddingRight: 1.2,
+                      marginBottom: 1
+                    }}
+                    className="position-absolute d-block m-0"
                   >
-                    3D
+                    3d
                   </p>
                 </div>
               </div>
@@ -189,10 +213,10 @@ export const Skills = class Skills extends Component {
                   className="progress-bar"
                   role="progressbar"
                   style={{
-                    width: this.state.clicked ? '40%' : '0',
-                    transition: '0.4s'
+                    width: this.state.clicked ? '60%' : '0',
+                    transition: '0.6s'
                   }}
-                  aria-valuenow="40"
+                  aria-valuenow="60"
                   aria-valuemin="0"
                   aria-valuemax="100"
                 />

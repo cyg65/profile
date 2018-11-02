@@ -35,12 +35,15 @@ class App extends Component {
                 alt="Kumano Fude: Shiki"
               />
               <div className="card-body">
-                <h4 className="card-title font-weight-bold text-uppercase">
-                  [WIP]Kumano Fude: Shiki
-                </h4>
-                <div className="card-text">
+                <h5 className="card-title font-weight-bold text-uppercase">
+                  [WIP]Shiki
+                </h5>
+                <h5 className="mt-4 font-weight-light">
+                  Product Design/branding
+                </h5>
+                <div className="card-text mt-3">
                   <ul>
-                    <li>3D Modeling: Cinema4d</li>
+                    <li>3D Modeling: Cinema4D</li>
                     <li>Video: Cinema4D + After Effects</li>
                     <li>Landing Page: HTMLCSS+Jquery</li>
                     <li>Design: Cinema4d + Illustrator</li>
@@ -64,10 +67,13 @@ class App extends Component {
                 alt="Kumano Fude: Konayuki"
               />
               <div className="card-body">
-                <h4 className="card-title font-weight-bold">
-                  Kumano Fude: Konayuki
-                </h4>
-                <div className="card-text">
+                <h5 className="card-title font-weight-bold text-uppercase">
+                  Konayuki
+                </h5>
+                <h5 className="mt-4 font-weight-light">
+                  Product Design/Branding
+                </h5>
+                <div className="card-text mt-3">
                   <ul>
                     <li>Video: After Effects + Premiere Pro</li>
                     <li>Landing Page: HTMLCSS + W3-Templete + JS</li>
@@ -87,10 +93,11 @@ class App extends Component {
                 alt="T-shirts: Lollilip"
               />
               <div className="card-body">
-                <h4 className="card-title font-weight-bold">
-                  [WIP]T-shirts: Lollilip
-                </h4>
-                <div className="card-text">
+                <h5 className="card-title font-weight-bold text-uppercase">
+                  [WIP]Lollilip
+                </h5>
+                <h5 className="mt-4 font-weight-light">Branding</h5>
+                <div className="card-text mt-3">
                   <ul>
                     <li>Design: Photoshop + Illustrator</li>
                   </ul>
@@ -114,10 +121,11 @@ class App extends Component {
                 alt="Kumano Fude: Yoshiki"
               />
               <div className="card-body">
-                <h4 className="card-title font-weight-bold">
-                  Kumano Fude: Yoshiki
-                </h4>
-                <div className="card-text">
+                <h5 className="card-title font-weight-bold text-uppercase">
+                  Yoshiki
+                </h5>
+                <h5 className="mt-4 font-weight-light">Web Design</h5>
+                <div className="card-text mt-3">
                   <ul>
                     <li>Photography Direction</li>
                     <li>Landing Page: HTMLCSS + W3-Templete + JS</li>
@@ -141,10 +149,11 @@ class App extends Component {
                 alt="ChaDJ"
               />
               <div className="card-body">
-                <h4 className="card-title font-weight-bold">
-                  [WIP]Branding: ChaDJ
-                </h4>
-                <div className="card-text">
+                <h5 className="card-title font-weight-bold text-uppercase">
+                  [WIP]ChaDJ
+                </h5>
+                <h5 className="mt-4 font-weight-light">Logo/Web Design</h5>
+                <div className="card-text mt-3">
                   <ul>
                     <li>Layout design: Sketch</li>
                     <li>Landing Page: HTMLCSS + Bootstrap + JS</li>
@@ -168,10 +177,11 @@ class App extends Component {
                 alt="cdj productions"
               />
               <div className="card-body">
-                <h4 className="card-title font-weight-bold">
-                  Branding: CDJ Productions
-                </h4>
-                <div className="card-text">
+                <h5 className="card-title font-weight-bold text-uppercase">
+                  CDJ Productions
+                </h5>
+                <h5 className="mt-4 font-weight-light">Logo Design</h5>
+                <div className="card-text mt-3">
                   <ul>
                     <li>Logo Design: Illustrator</li>
                     <li>Video: After Effects</li>
@@ -192,10 +202,11 @@ class App extends Component {
                 alt="js_demo"
               />
               <div className="card-body">
-                <h4 className="card-title font-weight-bold">
-                  JS Sidebar Widget
-                </h4>
-                <div className="card-text">
+                <h5 className="card-title font-weight-bold text-uppercase">
+                  Sidebar Widget
+                </h5>
+                <h5 className="mt-4 font-weight-light">JS Plugin</h5>
+                <div className="card-text mt-3">
                   <ul>
                     <li>Perl+JS</li>
                   </ul>
@@ -214,10 +225,13 @@ class App extends Component {
                 alt="react native demo"
               />
               <div className="card-body">
-                <h4 className="card-title font-weight-bold">
-                  [WIP]Proxy Japan Mobile APP
-                </h4>
-                <div className="card-text">
+                <h5 className="card-title font-weight-bold text-uppercase">
+                  [WIP]Proxy Japan
+                </h5>
+                <h5 className="mt-4 font-weight-light">
+                  Mobile APP Login Page
+                </h5>
+                <div className="card-text mt-3">
                   <ul>
                     <li>Logo Design: Illustrator</li>
                     <li>Layout Design: Illustrator</li>
