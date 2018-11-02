@@ -10,9 +10,11 @@ class App extends Component {
         <div className="container col-sm-12 col-md-4 m-0 p-5">
           <h1 className="font-weight-bold">SHION KOU</h1>
           <h5 className="mt-4 font-weight-light">EXPERIENCE DESIGNER</h5>
-          <p className="mt-5">
+          <p className="mt-5 text-justify">
             I am a product/UX/web designer based in Tokyo. I am passionate for
-            all things technology, creative
+            all things technology & creative. My experiences takes me
+            all-around-the-world, fillfulling different roles in marketing,
+            branding & design.
           </p>
           <hr className="my-5" />
           <Contact />
