@@ -101,6 +101,10 @@ button.close {
   font-size: 12px;
 }
 
+.badge {
+  font-size: .5em
+}
+
 @media (min-width: 576px) {
   .card-columns {
     column-count: 2

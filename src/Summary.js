@@ -37,7 +37,7 @@ export const Contact = class Contact extends Component {
           <h5 className="m-0 font-weight-bold">Contact</h5>
         </a>
         <ul
-          className="list-group collapse multi-collapse show font-weight-light"
+          className="list-group collapse multi-collapse show font-weight-light mt-2 mb-5"
           id="contact"
         >
           <li className="list-group-item">
@@ -85,7 +85,7 @@ export const Skills = class Skills extends Component {
           </div>
           <h5 className="m-0 font-weight-bold">Skills</h5>
         </a>
-        <div className="mb-3 collapse show multi-collapse" id="skills">
+        <div className="mb-3 collapse show multi-collapse mt-2" id="skills">
           <ul className="list-group">
             <li className="list-group-item font-weight-light">
               Keywords
@@ -102,7 +102,7 @@ export const Skills = class Skills extends Component {
                 <span className="badge badge-secondary p-2">3d Modeling</span>{' '}
               </div>
             </li>
-            <li className="list-group-item font-weight-light">
+            <li className="list-group-item font-weight-light mt-4">
               Content Design
               <div className="d-flex mt-3">
                 <div
@@ -193,14 +193,14 @@ export const Skills = class Skills extends Component {
                   />
                   <p
                     style={{
-                      fontSize: '0.6em',
+                      fontSize: '0.5em',
                       fontWeight: 500,
                       border: 'solid 1px',
-                      paddingTop: 0,
-                      paddingBottom: 0,
-                      paddingLeft: 1.2,
-                      paddingRight: 1.2,
-                      marginBottom: 1
+                      paddingTop: 2,
+                      paddingBottom: 2,
+                      paddingLeft: 1.25,
+                      paddingRight: 1.25,
+                      lineHeight: '1em'
                     }}
                     className="position-absolute d-block m-0"
                   >
@@ -222,7 +222,7 @@ export const Skills = class Skills extends Component {
                 />
               </div>
             </li>
-            <li className="list-group-item font-weight-light">
+            <li className="list-group-item font-weight-light mt-4">
               Font-end Development
               <div className="d-flex mt-3">
                 <div
